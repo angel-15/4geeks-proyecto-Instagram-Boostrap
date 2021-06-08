@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="./css/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram post con bootstrap</title>
+    <script src="https://kit.fontawesome.com/2588a9f585.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <div>
+
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                ...
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+
+                <div>
+
+                    <a class="navbar-brand" href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <span>Instagram</span>
+                </div>
+
+
+                <div class="green d-flex">
+                 
+
+                   <button type="button" class="btn btn-success mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Create a new post</button>
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          <i class="fas fa-cog"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li class="dropdown-item">Action</li>
+                          <li class="dropdown-item">Another action</li>
+                          <li class="dropdown-item">Something else here</li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li class="dropdown-item">Log out</li>
+                        </ul>
+                      </div>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+
+    </div>
+
+    <div class="row">
+
+        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active link-secondary" id="mosaic-feed" data-bs-toggle="tab" data-bs-target="#mosaic" type="button" role="tab" aria-controls="home" aria-selected="true"><i class="fa fa-th"></i></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link link-secondary" id="lineal-feed" data-bs-toggle="tab" data-bs-target="#lineal" type="button" role="tab" aria-controls="profile" aria-selected="false"><i class="fa fa-square"></i></button>
+            </li>
+            
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="mosaic" role="tabpanel" aria-labelledby="mosaic-feed">
+                
+                <div class="container">
+                    
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/why1.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    
+                                    <img src="http://lorempixel.com/400/200" alt="" width="100%"></img>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/why2.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    
+                                    <img src="http://lorempixel.com/400/200" alt="" width="100%"></img>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/why3.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    
+                                    <img src="http://lorempixel.com/400/200" alt="" width="100%"></img>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/why1.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    
+                                    <img src="http://lorempixel.com/400/200" alt="" width="100%"></img>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/why2.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    
+                                    <img src="http://lorempixel.com/400/200" alt="" width="100%"></img>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/why3.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    
+                                    <img src="http://lorempixel.com/400/200" alt="" width="100%"></img>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/why1.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    
+                                    <img src="http://lorempixel.com/400/200" alt="" width="100%"></img>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/why2.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    
+                                    <img src="http://lorempixel.com/400/200" alt="" width="100%"></img>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/why3.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    
+                                    <img src="http://lorempixel.com/400/200" alt="" width="100%"></img>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="tab-pane fade" id="lineal" role="tabpanel" aria-labelledby="lineal-feed">
+
+                <div class="container">
+
+                    <div class="post">
+                        
+                        <div class="post-header">
+                            <div>
+                                <h2> My first Photo</h2>
+                            </div><div>
+                                <span>12/14</span>
+                            </div>
+                        </div>
+                    
+                        <div>
+                            <img src="http://lorempixel.com/400/200" alt=""></img>
+                        </div>
+                    
+                        <div>
+                            <p><strong>23 Likes</strong></p>
+                        </div>
+    
+                        <div>
+                            <p>This is my first photo of the feed. this is a multy line comment for testing purposes. i am learning to code with <strong>#BreatheCode</strong></p>
+                        </div>
+    
+                        <div>
+                            <i class="far fa-heart"></i>
+                            <input type="text" placeholder="Comments ..." />
+                            <i class="fas fa-ellipsis-v fa-lg"></i>
+                        </div>
+                        
+                    </div>
+            
+                    <div class="post">
+                        
+                        <div class="post-header">
+                            <div>
+                                <h2>Some cute thing</h2>
+                            </div><div>
+                                <span>12/17</span>
+                            </div>
+                        </div>
+                    
+                        <div>
+                            <img src="http://lorempixel.com/400/200" alt=""></img>
+                        </div>
+    
+    
+                        <div>
+                            <p><strong>23 Likes</strong></p>
+                        </div>
+                    
+                        <div>
+                            <p>The internet aproves this cute dog...<strong>#BreatheCode</strong></p>
+                        </div>
+    
+                        <div>
+                            <i class="far fa-heart"></i>
+                            <input type="text" placeholder="Comments ..." />
+                            <i class="fas fa-ellipsis-v fa-lg"></i>
+                        </div>
+                        
+                    </div>
+            
+                    <div class="post">
+                        
+                        <div class="post-header">
+                            <div>
+                                <h2>there´s a paparazzi around</h2>
+                            </div><div>
+                                <span>12/17</span>
+                            </div>
+                        </div>
+                    
+                        <div>
+                            <img src="http://lorempixel.com/400/200" alt=""></img>
+                        </div>
+    
+                        <div>
+                            <p><strong>23 Likes</strong></p>
+                        </div>
+                    
+                        <div>
+                            <p>This is me waiting for the screen to show my awesome first website made at <strong>#BreatheCode</strong></p>                    
+                        </div>
+    
+                        <div>
+                            <i class="far fa-heart"></i>
+                            <input type="text" placeholder="Comments ..." />
+                            <i class="fas fa-ellipsis-v fa-lg"></i>
+                        </div>
+    
+                        
+                    </div>
+            
+                    <div class="post">
+                        
+                        <div class="post-header">
+                            <div>
+                                <h2>And of course... food!</h2>
+                            </div><div>
+                                <span>12/17</span>
+                            </div>
+                        </div>
+                    
+                        <div>
+                            <img src="http://lorempixel.com/400/200" alt=""></img>
+                        </div>
+    
+                        <div>
+                            <p><strong>23 Likes</strong></p>
+                        </div>
+                    
+                        <div>    
+                            <p>Because no photo feed is cool without some food on it! <strong>#BreatheCode</strong></p>                    
+                        </div>
+    
+                        <div>
+                            <i class="far fa-heart"></i>
+                            <input type="text" placeholder="Comments ..." />
+                            <i class="fas fa-ellipsis-v fa-lg"></i>
+                        </div>
+                        
+                    </div>
+    
+    
+                    <div class="post">
+                        
+                        <div class="post-header">
+                            <div>
+                                <h2>This is my first video!</h2>
+                            </div><div>
+                                <span>12/17</span>
+                            </div>
+                        </div>
+                    
+                        <div>
+                            <img src="http://lorempixel.com/400/200" alt=""></img>
+                        </div>
+    
+                        <div>
+                            <p><strong>23 Likes</strong></p>
+                        </div>
+                    
+                        <div>    
+                            <p>this is my first video, thanks to <strong>#BreatheCode</strong></p>                    
+                        </div>
+    
+                        <div>
+                            <i class="far fa-heart"></i>
+                            <input type="text" placeholder="Comments ..." />
+                            <i class="fas fa-ellipsis-v fa-lg"></i>
+                        </div>
+    
+                            
+                        
+                    </div>
+            
+                </div>
+
+            </div>
+        </div>
+ 
+    </div>
+    
+    
+
+
+    <script src="./js/bootstrap.js"></script>
+</body>
+
+</html>

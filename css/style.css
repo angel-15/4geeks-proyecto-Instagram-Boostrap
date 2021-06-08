@@ -1,0 +1,46 @@
+
+
+.post{
+    background-color: white;
+    margin-top: 40px;
+}
+
+.post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+
+.post-header div:last-child{
+    display: inline-block;  
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    color: gray;
+}
+
+.post h2, p{
+    margin: 0;
+    padding: 10px;
+}
+
+
+
+.post img{
+    width: 100%;
+}
+
+i{
+    padding: 5px;
+
+}
+
+input{
+    border: none;
+    width: 90%;
+    padding: 10px;
+}
+
+.tab-pane{
+    background-color: rgb(235, 235, 235);
+    padding-top: 10px;
+}
